@@ -7,10 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: test
 
 variables:
-  buildConfiguration: 'Release'
+  buildConfiguration: 'Build'
 
 steps:
 - task: DotNetCoreCLI@2
