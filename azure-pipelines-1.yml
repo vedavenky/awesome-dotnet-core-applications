@@ -9,7 +9,7 @@ stages:
       - job: build
         displayName: build the terraform code
         pool:
-          vmImage: windows-latest
+          name: test
         steps:
         - task: CopyFiles@2
           inputs:
